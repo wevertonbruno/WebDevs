@@ -1,0 +1,34 @@
+:root{
+    --m-color:rgb(219, 219, 219);
+    --p-color: rgb(37, 37, 37);
+    --p-color-a: rgba(37, 37, 37, .2);
+}
+
+.main-color{
+    background-color: var(--m-color);
+}
+
+.secondary-color{
+    background-color: var(--p-color);
+    color: var(--m-color);
+}
+
+.panel-header{
+    background-color: var(--m-color);
+    border-right: 1px solid var(--p-color-a);
+}
+
+#text-container{
+    background-color: var(--p-color);
+}
+
+.toggle-color:checked ~ label{
+    background-color: var(--p-color);
+    color: var(--m-color);
+    
+}
+
+#text-container{
+    color: var(--m-color);
+}
+
